@@ -1,5 +1,5 @@
 # UBC NLP Servers
-Our lab has 3 servers with a total of 6 GPUs. Access to these GPUs are restricted to only members of our group.  
+Our lab has a total of 17 GPUs. Access to these GPUs are restricted to only members of our group.  
 This document will walk you through steps to [obtain access](#obtaining-access) to our servers, details about the [file system](#file-system), as well as providing you with some of [my experiences](#personal-experiences) using these compute clusters. More information can be found [here](https://my.cs.ubc.ca/docs/using-department-research-cluster)
 
 ## Getting Access
