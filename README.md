@@ -14,3 +14,7 @@ There are three sources of compute available for all members: [Compute Canada](c
 
 ## Supervisor-specific Onboarding Instructions
 Depending on your supervisor, there may be different onboarding instructions. These instructions are under [supervisor](supervisor/).
+
+## API Security
+You may be granted funds/credits to LLM APIs like OpenAI or Gemini. However, it is important to keep in mind that API keys of any kind must be stored on local machines, not on GitHub or any other service provider devices, not even if they promise you "privacy" (i.e. private repo), to avoid the key being stolen. It is also a good practice to constantly observe the usage of the API to make sure that no uncommon charges are present.  
+Most importantly, if you spot any unexpected charges, do not panic. Delete/Deactivate your API key immediately and report to your supervisor.
