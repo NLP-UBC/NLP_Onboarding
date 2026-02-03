@@ -1,7 +1,7 @@
-# uv Tutorial
+# `uv` Tutorial
 [`uv`](https://github.com/astral-sh/uv) is a python package manager. It automatically keep track of your installed packages and sort out the correct version of each package. It is also 10x faster than `pip`, which saves significant amount of time if you are working on a HDD machine.
 
-## When to use uv
+## When to use `uv`
 1. Your project is entirely pythonic
 2. Whenever you can use `uv`
 
