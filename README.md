@@ -1,11 +1,6 @@
 # UBC NLP Group Onboarding Document
 Welcome to the UBC NLP Group! We are glad to have a new talent joining us. This is a tutorial that will help you quickly onboard to the group and obtain access to compute.
 
-## Quick Links
-- [Get in Contact](#get-in-contact)
-- [Compute Access](#compute-access)
-- [Supervisor-specific Onboarding Instructions](#supervisor-specific-onboarding-instructions)
-
 ## Get in Contact
 Our group uses [Slack](https://slack.com/) for communications. Please download Slack and ask your supervisor or other students to add you to the group.
 
