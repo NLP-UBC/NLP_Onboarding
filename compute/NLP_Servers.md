@@ -35,7 +35,7 @@ To use `Slurm` on NewCastle, you must `source /opt/slurm/set_submit_cs`.
 Our storage directory is in `/ubc/cs/research/nlp-raid/students/CWL/`. Please be reminded to consistently deleting unused files, as we often run out of storage. The old directory `/ubc/cs/research/nlp/CWL/` had ran out of space. Note that this is a different file system from the your home directory and will cause bugs if your `.bashrc` is trying to run things there.
 
 ## Slurm Specs
-For basic usage of Slurm, checkout the [Slurm document](../technical/slurm.md). To start an interactive session, use:
+For basic usage of Slurm, checkout the [Slurm document](../technical/slurm.md). Full information can be found [here](https://my.cs.ubc.ca/docs/using-department-research-cluster). To start an interactive session, use:
 ```shell
 salloc --time=4:0:0 --mem-per-cpu=16G --nodes=1 --gpus=1 --partition=nlpgpo
 ```
