@@ -11,20 +11,20 @@ This document will walk you through steps to [obtain access](#obtaining-access) 
 ## SSH Configuration
 You can setup your ssh config list like this:
 ```
-Host UBC-Remote-Research
-    HostName remote.cs.ubc.ca
+Host UBC-Jumphost
+    HostName jumphost.cs.ubc.ca
     User <cwl>
     ForwardX11 yes
 Host UBC-Submit-CS
     HostName submit-cs.cs.ubc.ca
     User <cwl>
-    ProxyJump UBC-Remote-Research
+    ProxyJump UBC-Jumphost
     ForwardX11 yes
 Host UBC-NewCastle
     HostName newcastle.cs.ubc.ca
     User <cwl>
     ForwardX11 yes
-    ProxyJump UBC-Remote-Research
+    ProxyJump UBC-Jumphost
 ```
 Now `ssh -J CWL@remote.cs.ubc.ca CWL@submit-cs.cs.ubc.ca` becomes `ssh UBC-Submit-CS`.
 
