@@ -1,5 +1,5 @@
 # Killarney Setup Manual
-Killarney is a Compute Canada cluster for only users affiliated at the [Vector Institute](https://vectorinstitute.ai/). This document will walk you through how to set up [Killarney](https://docs.alliancecan.ca/wiki/Killarney). Note that you may only use Killarney if your supervisor is a Vector Affiliate and has added you to their allocation.
+Killarney is a Compute Canada cluster for only users affiliated at the [Vector Institute](https://vectorinstitute.ai/). It has 672 NVIDIA L40S 48GB GPUs and 80 NVIDIA H100 SXM 80GB GPUs. This document will walk you through how to set up [Killarney](https://docs.alliancecan.ca/wiki/Killarney). Note that you may only use Killarney if your supervisor is a Vector Affiliate and has added you to their allocation.
 
 ## Obtaining Access
 1. Go to [https://ccdb.alliancecan.ca/](https://ccdb.alliancecan.ca/) to log in. To setup an account, follow steps 1 to 3 in the [Compute Canada 
