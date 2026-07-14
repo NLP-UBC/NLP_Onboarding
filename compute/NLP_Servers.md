@@ -12,7 +12,7 @@ This document will walk you through steps to [obtain access](#obtaining-access) 
 You can setup your ssh config list like this:
 ```
 Host UBC-Jumphost
-    HostName jumphost-test.cs.ubc.ca
+    HostName jumphost.cs.ubc.ca
     User <cwl>
     ForwardX11 yes
 Host UBC-Submit-CS
