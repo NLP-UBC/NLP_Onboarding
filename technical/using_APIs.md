@@ -1,0 +1,2 @@
+# Using Gemini/OpenAI APIs
+We have free Gemini credits (ask your supervisor), and in a lot of cases we will use OpenAI API, even if you are not using OpenAI models. I have attached my source code for calling Gemini and OpenAI API in [gemini_utils.py](./gemini_utils.py) and [openai_utils.py](./openai_utils.py), feel free to use it.
