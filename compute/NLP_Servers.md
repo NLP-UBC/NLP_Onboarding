@@ -49,6 +49,7 @@ Below is a template job script:
 #SBATCH --partition=nlpgpo
 ...
 ```
+There are two partitions available: `nlpgpo` and `ubcml-nlp`. `nlpgpo` has 11 larger 48GB GPUs of two models, whereas `ubcml-nlp` has 6 smaller 24GB GPUs of the same model.
 
 ## Personal Experiences
 1. Do not switch to another network while you are connected to the server: you may create zombie vscode server process that blocks you from logging in next time.
